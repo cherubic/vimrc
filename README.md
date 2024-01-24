@@ -1,3 +1,5 @@
+**!!! this is own config, source from https://github.com/cherubic/vimrc?tab=readme-ov-file**
+
 ![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
 
 # The Ultimate vimrc
@@ -16,7 +18,7 @@ I would, of course, recommend using the awesome version.
 ### Install for your own user only
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following from your terminal:
 
-	git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone --depth=1 https://github.com/cherubic/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 	
 ### Install for multiple users
@@ -115,8 +117,8 @@ Type `:colorscheme <Tab>` to try out color schemes on the fly,
 or add the command to `~/.vim_runtime/my_configs.vim` (see [below](#how-to-include-your-own-stuff)),
 for example `colorscheme pyte`.
 
-* [peaksea](https://github.com/vim-scripts/peaksea): The default
-* [dracula](https://github.com/dracula/vim)
+* [peaksea](https://github.com/vim-scripts/peaksea)
+* [dracula](https://github.com/dracula/vim): The default
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
@@ -132,6 +134,7 @@ for example `colorscheme pyte`.
 * [nginx.vim](https://github.com/vim-scripts/nginx.vim): Highlights configuration files for nginx
 * [rust.vim](https://github.com/rust-lang/rust.vim)
 * [vim-ruby](https://github.com/vim-ruby/vim-ruby)
+* [vim-go](https://github.com/fatih/vim-go)
 * [typescript-vim](https://github.com/leafgarland/typescript-vim)
 * [vim-javascript](https://github.com/pangloss/vim-javascript)
 * [vim-python-pep8-indent](https://github.com/Vimjas/vim-python-pep8-indent)
