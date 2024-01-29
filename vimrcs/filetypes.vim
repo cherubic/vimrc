@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""
-" => Python section
+" => Python 部分
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
 au FileType python syn keyword pythonDecorator True None False self
@@ -20,7 +20,7 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
-" => JavaScript section
+" => JavaScript 部分
 """""""""""""""""""""""""""""""
 au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
@@ -45,7 +45,7 @@ endfunction
 
 
 """"""""""""""""""""""""""""""
-" => CoffeeScript section
+" => CoffeeScript 部分
 """""""""""""""""""""""""""""""
 function! CoffeeScriptFold()
     setl foldmethod=indent
@@ -57,7 +57,7 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
 
 """"""""""""""""""""""""""""""
-" => Shell section
+" => Shell 部分
 """"""""""""""""""""""""""""""
 if exists('$TMUX') 
     if has('nvim')
@@ -69,7 +69,7 @@ endif
 
 
 """"""""""""""""""""""""""""""
-" => Twig section
+" => Twig 部分
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
 

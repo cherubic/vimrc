@@ -6,13 +6,13 @@
 
 
 """"""""""""""""""""""""""""""
-" => Enable native vim packages as described in the README
+" => 启用原生 Vim 包，如 README 中所述
 """"""""""""""""""""""""""""""
 set packpath+=~/.vim_runtime
 
 
 """"""""""""""""""""""""""""""
-" => Load pathogen paths
+" => 加载 Pathogen 路径
 """"""""""""""""""""""""""""""
 let s:vim_runtime = expand('<sfile>:p:h')."/.."
 call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
@@ -52,11 +52,11 @@ nmap <C-n> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
-" Quickly find and open a file in the current working directory
+" 在当前工作目录中快速查找并打开文件
 let g:ctrlp_map = '<C-f>'
 map <leader>j :CtrlP<cr>
 
-" Quickly find and open a buffer
+" 快速查找并打开缓冲区
 map <leader>b :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
